@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #EAEAEA;
-	
+	position: relative;
 }
 
 /* Making all images fluid */
@@ -274,3 +274,11 @@ figure {
 #second-content-wrapper {
 	margin: auto;
 }
+ 
+ #wow {
+	 width: 360px;
+	 height: 260px;
+	 position: absolute;
+	 top: 1500px;
+	 z-index: 100;
+ }
